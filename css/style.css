@@ -28,7 +28,6 @@ ul {
     justify-content: space-between;
     width: 500px;
     font-size: x-large;
-    
 }
 
 #main_content {
@@ -64,6 +63,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 175px;
 }
 
 .temp {
@@ -94,11 +94,11 @@ h3 {
     font-size: x-large;
 }
 
-.h {
+.hi {
     color: red
 }
 
-.l {
+.low {
     color: blue
 }
 
@@ -129,3 +129,17 @@ h4 {
     box-shadow: 4px 4px #555;
     background-color: rgb(142, 172, 228);
 }
+
+
+.hi::after, .low::after {
+    content: "°";
+}
+
+.center {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
